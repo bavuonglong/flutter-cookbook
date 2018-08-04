@@ -1,7 +1,10 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_cookbook/food.dart';
+//import 'package:flutter/rendering.dart';
 
 void main() {
+//  debugPaintSizeEnabled = true;
   runApp(MyApp());
 }
 
@@ -15,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(
+      home: FoodPage(
         title: appName,
       ),
     );
